@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.0</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{EA543169-2BC9-44B0-BBA1-376027463845}</ProjectGuid>
+    <ProjectTypeGuids>{804445EB-57E1-4F64-8830-61A8701F1C25};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>remojoConnectionTypes.Rdp</RootNamespace>
+    <MacOSArch>X86</MacOSArch>
+    <Archive>False</Archive>
+    <MacOSVersion>MacOS107</MacOSVersion>
+    <MacOSApplicationType>CocoaApplication</MacOSApplicationType>
+    <MacOSFrameworks>AppKit;Foundation</MacOSFrameworks>
+    <AssemblyName>RdpConnection</AssemblyName>
+    <SigningIdentity>
+    </SigningIdentity>
+    <ArchiveIdentity>
+    </ArchiveIdentity>
+    <AdditionalAssemblies>
+    </AdditionalAssemblies>
+    <ExcludedAssemblies>
+    </ExcludedAssemblies>
+    <AdditionalLibraries>
+    </AdditionalLibraries>
+    <MacOSApplicationCategory>
+    </MacOSApplicationCategory>
+    <BundleId>com.lemonmojo.RoyalTSX.RdpConnection</BundleId>
+    <BundleVersion>1.0</BundleVersion>
+    <Signing>False</Signing>
+    <UseEntitlements>False</UseEntitlements>
+    <EmbeddedFrameworks>
+    </EmbeddedFrameworks>
+    <CombineArtwork>False</CombineArtwork>
+    <EncryptArtwork>False</EncryptArtwork>
+    <EncryptArtworkSeed />
+    <EncryptionSeed>
+    </EncryptionSeed>
+    <MainNibFile>en.lproj\MainMenu.xib</MainNibFile>
+    <BundleIcon>Monobjc.icns</BundleIcon>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>False</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>False</ConsolePause>
+    <CustomCommands>
+      <CustomCommands>
+        <Command type="AfterBuild" command="sh ../Scripts/AfterBuildScript.sh ${ProjectConfigName} ${ProjectName}" workingdir="${ProjectDir}" />
+      </CustomCommands>
+    </CustomCommands>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>False</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>False</ConsolePause>
+    <CustomCommands>
+      <CustomCommands>
+        <Command type="AfterBuild" command="sh ../Scripts/AfterBuildScript.sh ${ProjectConfigName} ${ProjectName}" workingdir="${ProjectDir}" />
+      </CustomCommands>
+    </CustomCommands>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Monobjc, Version=10.7.0.0, Culture=neutral, PublicKeyToken=d5a8d181860c16be">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Monobjc.AppKit, Version=10.7.0.0, Culture=neutral, PublicKeyToken=d5a8d181860c16be">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Monobjc.Foundation, Version=10.7.0.0, Culture=neutral, PublicKeyToken=d5a8d181860c16be">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="RoyalDocument.Desktop">
+      <HintPath>..\..\Libs\RoyalDocument.Desktop.dll</HintPath>
+    </Reference>
+    <Reference Include="RoyalLogging.Desktop">
+      <HintPath>..\..\Libs\RoyalLogging.Desktop.dll</HintPath>
+    </Reference>
+    <Reference Include="RoyalTSXNativeApi">
+      <HintPath>..\..\Libs\RoyalTSXNativeApi.dll</HintPath>
+    </Reference>
+    <Reference Include="remojoApi">
+      <HintPath>..\..\Libs\remojoApi.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="RdpConnection.cs" />
+    <Compile Include="UI\PropertyPageRdpAdvancedMainController.cs" />
+    <Compile Include="UI\PropertyPageRdpAdvancedMainController.designer.cs">
+      <DependentUpon>PropertyPageRdpAdvancedMainController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\PropertyPageRdpMainController.cs" />
+    <Compile Include="UI\PropertyPageRdpMainController.designer.cs">
+      <DependentUpon>PropertyPageRdpMainController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\RdpPropertyPages.cs" />
+    <Compile Include="Helper\Language.cs" />
+    <Compile Include="Helper\ImageAccessor.cs" />
+    <Compile Include="UI\PropertyPageRdpAdvancedDisplayController.cs" />
+    <Compile Include="UI\PropertyPageRdpAdvancedDisplayController.designer.cs">
+      <DependentUpon>PropertyPageRdpAdvancedDisplayController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\PropertyPageRdpAdvancedPerformanceController.cs" />
+    <Compile Include="UI\PropertyPageRdpAdvancedPerformanceController.designer.cs">
+      <DependentUpon>PropertyPageRdpAdvancedPerformanceController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\PropertyPageRdpAdvancedRedirectionController.cs" />
+    <Compile Include="UI\PropertyPageRdpAdvancedRedirectionController.designer.cs">
+      <DependentUpon>PropertyPageRdpAdvancedRedirectionController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CordRdpOptions.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildBinPath)\Monobjc.CocoaApplication.targets" />
+  <ItemGroup>
+    <None Include="PluginInfo\PluginInfo.xml" />
+    <None Include="PluginInfo\Icon_256x256.png" />
+    <None Include="PluginInfo\Icon_48x48.png" />
+    <None Include="Resources\ReleaseNotes.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Screenshots\screenshot_rdesktop_01.jpg" />
+    <None Include="Resources\Screenshots\screenshot_rdesktop_02.jpg" />
+    <None Include="Resources\Screenshots\screenshot_rdesktop_03.jpg" />
+    <None Include="Resources\Screenshots\screenshot_rdesktop_04.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="en.lproj\" />
+    <Folder Include="UI\" />
+    <Folder Include="Resources\" />
+    <Folder Include="Resources\Icons\" />
+    <Folder Include="Helper\" />
+    <Folder Include="de.lproj\" />
+    <Folder Include="PluginInfo\" />
+    <Folder Include="Frameworks\" />
+    <Folder Include="Resources\Screenshots\" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterfaceDefinition Include="en.lproj\PropertyPageRdpAdvancedMain.xib" />
+    <InterfaceDefinition Include="en.lproj\PropertyPageRdpMain.xib" />
+    <InterfaceDefinition Include="en.lproj\PropertyPageRdpAdvancedDisplay.xib" />
+    <InterfaceDefinition Include="en.lproj\PropertyPageRdpAdvancedPerformance.xib" />
+    <InterfaceDefinition Include="en.lproj\PropertyPageRdpAdvancedRedirection.xib" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Icons\AdvancedSettings_16x16.png" />
+    <EmbeddedResource Include="Resources\Icons\AdvancedSettings_24x24.png" />
+    <EmbeddedResource Include="Resources\Icons\AdvancedSettings_32x32.png" />
+    <EmbeddedResource Include="Resources\Icons\AdvancedSettings_48x48.png" />
+    <EmbeddedResource Include="Resources\Icons\Keyboard_16x16.png" />
+    <EmbeddedResource Include="Resources\Icons\Keyboard_24x24.png" />
+    <EmbeddedResource Include="Resources\Icons\Keyboard_32x32.png" />
+    <EmbeddedResource Include="Resources\Icons\Keyboard_48x48.png" />
+    <EmbeddedResource Include="Resources\Icons\RDPConnection_16x16.png" />
+    <EmbeddedResource Include="Resources\Icons\RDPConnection_24x24.png" />
+    <EmbeddedResource Include="Resources\Icons\RDPConnection_32x32.png" />
+    <EmbeddedResource Include="Resources\Icons\RDPConnection_48x48.png" />
+    <EmbeddedResource Include="Resources\Icons\RDPGateway_16x16.png" />
+    <EmbeddedResource Include="Resources\Icons\RDPGateway_24x24.png" />
+    <EmbeddedResource Include="Resources\Icons\RDPGateway_32x32.png" />
+    <EmbeddedResource Include="Resources\Icons\RDPGateway_48x48.png" />
+    <EmbeddedResource Include="Resources\Icons\RDPIcon_48x48.png" />
+    <EmbeddedResource Include="Resources\Icons\RDPInactive_16x16.png" />
+    <EmbeddedResource Include="Resources\Icons\RDPInactive_24x24.png" />
+    <EmbeddedResource Include="Resources\Icons\RDPInactive_32x32.png" />
+    <EmbeddedResource Include="Resources\Icons\RDPPerformance_16x16.png" />
+    <EmbeddedResource Include="Resources\Icons\RDPPerformance_24x24.png" />
+    <EmbeddedResource Include="Resources\Icons\RDPPerformance_32x32.png" />
+    <EmbeddedResource Include="Resources\Icons\RDPPerformance_48x48.png" />
+    <EmbeddedResource Include="Resources\Icons\RDPProgress_16x16.png" />
+    <EmbeddedResource Include="Resources\Icons\RDPProgress_24x24.png" />
+    <EmbeddedResource Include="Resources\Icons\RDPProgress_32x32.png" />
+    <EmbeddedResource Include="Resources\Icons\RDPScreenColors_16x16.png" />
+    <EmbeddedResource Include="Resources\Icons\RDPScreenColors_24x24.png" />
+    <EmbeddedResource Include="Resources\Icons\RDPScreenColors_32x32.png" />
+    <EmbeddedResource Include="Resources\Icons\RDPScreenColors_48x48.png" />
+    <EmbeddedResource Include="Resources\Icons\RDPScreenSize_16x16.png" />
+    <EmbeddedResource Include="Resources\Icons\RDPScreenSize_32x32.png" />
+    <EmbeddedResource Include="Resources\Icons\RDPScreenSize_48x48.png" />
+    <EmbeddedResource Include="Resources\Icons\RDPSessionInformation_16x16.png" />
+    <EmbeddedResource Include="Resources\Icons\RDPSessionInformation_32x32.png" />
+    <EmbeddedResource Include="Resources\Icons\USB_16x16.png" />
+    <EmbeddedResource Include="Resources\Icons\USB_24x24.png" />
+    <EmbeddedResource Include="Resources\Icons\USB_32x32.png" />
+    <EmbeddedResource Include="Resources\Icons\USB_48x48.png" />
+    <EmbeddedResource Include="Resources\Icons\Speaker_48x48.png" />
+    <EmbeddedResource Include="Resources\Icons\RDPActive_16x16.png" />
+    <EmbeddedResource Include="Resources\Icons\RDPActive_24x24.png" />
+    <EmbeddedResource Include="Resources\Icons\RDPActive_32x32.png" />
+    <EmbeddedResource Include="Resources\Icons\TemplateRDS_16x16.png" />
+    <EmbeddedResource Include="Resources\Icons\TemplateRDS_32x32.png" />
+    <EmbeddedResource Include="Resources\Icons\TemplateRDS_48x48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="en.lproj\Localizable.strings" />
+    <Content Include="de.lproj\Localizable.strings" />
+  </ItemGroup>
+</Project>

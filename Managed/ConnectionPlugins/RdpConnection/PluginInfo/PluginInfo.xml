@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PluginInfo>
+	<ID>a6330510-982c-11e1-a8b0-0800200c9a66</ID>
+	<Name>Remote Desktop Plugin (CoRD)</Name>
+	<Description>
+		<![CDATA[
+			<i style="color: #9b2c2c"><strong>Warning:</strong>&nbsp;This Plugin is deprecated, please use the <strong>FreeRDP</strong> based Remote Desktop Plugin instead!</i><br /><br />This Remote Desktop Plugin is based on <strong>CoRD/rdesktop</strong> and provides only a very basic feature set. If you want to use advanced features of the <strong>Remote Desktop Protocol</strong>, please use the FreeRDP based plugin!<br /><br /><br />
+			<img src="http://app.royaltsx.com/plugins/channels/beta/Plugins/Content/a6330510-982c-11e1-a8b0-0800200c9a66/Screenshots/screenshot_rdesktop_01.jpg" width="100" />&nbsp;&nbsp;&nbsp;<img src="http://app.royaltsx.com/plugins/channels/beta/Plugins/Content/a6330510-982c-11e1-a8b0-0800200c9a66/Screenshots/screenshot_rdesktop_02.jpg" width="100" />&nbsp;&nbsp;&nbsp;<img src="http://app.royaltsx.com/plugins/channels/beta/Plugins/Content/a6330510-982c-11e1-a8b0-0800200c9a66/Screenshots/screenshot_rdesktop_03.jpg" width="100" />&nbsp;&nbsp;&nbsp;<img src="http://app.royaltsx.com/plugins/channels/beta/Plugins/Content/a6330510-982c-11e1-a8b0-0800200c9a66/Screenshots/screenshot_rdesktop_04.jpg" width="100" />
+		]]>
+	</Description>
+	<SupportedProtocols>RDP</SupportedProtocols>
+	<ObjectTypeName>RoyalRDSConnection</ObjectTypeName>
+	<Version>1.1.0.7</Version>
+	<MinAppVersion>1.1.1.7</MinAppVersion>
+	<MaxAppVersion>9999.0.0.0</MaxAppVersion>
+	<PluginURL>http://www.royaltsx.com/main/home/osx/features.aspx#feature_connectionplugins</PluginURL>
+	<PublisherName>Lemon Mojo</PublisherName>
+	<PublisherURL>http://www.lemonmojo.com/</PublisherURL>
+	<PublisherEMail>office@lemonmojo.com</PublisherEMail>
+	<SupportURL>http://www.royaltsx.com/main/home/osx/support.aspx</SupportURL>
+	<SupportEMail>support@royaltsx.com</SupportEMail>
+	<LicenseType>GPL V2</LicenseType>
+	<LicenseURL>http://www.gnu.org/licenses/gpl-2.0.html</LicenseURL>
+</PluginInfo>

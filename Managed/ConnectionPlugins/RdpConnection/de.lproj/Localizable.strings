@@ -1,0 +1,61 @@
+/*
+	GERMAN LANGUAGE FILE
+*/
+
+// Error Descriptions
+"No error" = "Kein Fehler";
+"The connection timed out." = "Ein Verbindungs-Time-Out ist aufgetreten.";
+"The host name could not be resolved." = "Der Computer Name konnte nicht aufgelöst werden.";
+"There was an error connecting." = "Ein Verbindungsfehler ist aufgetreten.";
+"You canceled the connection." = "Die Verbindung wurde abgebrochen.";
+
+"Official Royal TSX RDP Plugin" = "Offizielles Royal TSX RDP Plugin";
+
+"Remote Desktop Connection Settings" = "Remote Desktop Verbindungs-Einstellungen";
+"Remote Desktop" = "Remote Desktop";
+"Advanced" = "Erweitert";
+"Notes" = "Notizen";
+
+// Property Page Rdp Main
+"With a Remote Desktop connection you can connect to remote computers supporting RDP (Remote Desktop Protocol, Standard Port is 3389). You can change the port in the Advanced section." = "Mit einer Remote Desktop Verbindung können Sie sich zu entfernten Computern die RDP (Remote Desktop Protocol, Standard Port 3389) unterstützen verbinden. Der Port kann unter Erweitert geändert werden.";
+
+// Property Page Rdp Advanced
+"Connection" = "Verbindung";
+"Custom Port:" = "Benutzerdefinierter Port:";
+"Console/Admin Session" = "Console/Admin Sitzung";
+
+// Property Page Rdp Advanced Display
+"Display Options" = "Anzeigeoptionen";
+"Colors:" = "Farben:";
+"256 Colors" = "256 Farben";
+"Thousands" = "Tausende";
+"Millions" = "Millionen";
+"You can set the desktop size to fill the client area (\"Auto Expand\") or you specify a custom desktop size." = "Sie können eine fixe Desktop Größe oder automatisches Skalieren (\"Auto Expand\") einstellen.";
+"Desktop Size:" = "Desktop Größe:";
+"Auto Expand" = "Auto Expand";
+"Custom Size" = "Fixe Größe";
+"Width:" = "Breite:";
+"Height:" = "Höhe:";
+"Resize Mode:" = "Größenänderungmodus:";
+"Scroll Bars" = "Scrollbalken";
+"Smart Reconnect" = "Smart Reconnect";
+"Decreasing the window size will show scroll bars in the remote session." = "Wenn Sie die Fenstergröße verringern werden Scrollbalken angezeigt.";
+"Changing the window size will force a reconnect, so that the remote desktop will adapt to the new size." = "Wenn Sie die Fenstergröße verändern wird ein Reconnect durchgeführt um die Größe der Remote-Verbindung anzupassen.";
+
+// Property Page Rdp Advanced Performance
+"Performance" = "Leistung";
+"On this page you can tweak RDP performance options. To improve performance, check only the boxes for the settings you really need." = "Auf dieser Seite können Sie RDP Leistungs-Einstellungen vornehmen. Um die Leistung zu verbessern, schalten Sie nur die Optionen an die Sie wirklich benötigen.";
+"Desktop background" = "Desktop Hintergrund";
+"Menu and window animations" = "Menü- und Fenster-animationen";
+"Show window contents while dragging" = "Fensterinhalt beim verschieben anzeigen";
+"Font smoothing" = "Schriftglättung";
+"Visual styles" = "Visuelle Stile";
+
+// Property Page Rdp Advanced Redirection
+"Redirection" = "Weiterleitung";
+"Audio:" = "Ton:";
+"Leave at remote computer" = "Am Remote-Computer abspielen";
+"Do not play" = "Nicht abspielen";
+"Choose the devices and resources on this computer that you want to use in your remote session." = "Wählen Sie die Geräte und Ressourcen auf diesem Computer, die Sie in Ihrer Remote-Sitzung verwenden möchten.";
+"Printers" = "Drucker";
+"Disk drives" = "Laufwerke";

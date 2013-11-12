@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Managed", "Managed", "{4D009D1E-828F-432F-9669-3906889E32D2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ConnectionPlugins", "ConnectionPlugins", "{2AC8C2B9-37E3-4FC9-B53B-5379E6C2D63F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RdpConnection", "Managed\ConnectionPlugins\RdpConnection\RdpConnection.csproj", "{EA543169-2BC9-44B0-BBA1-376027463845}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{BBB18D47-269E-4729-89F7-49F071E53CF7}"
+	ProjectSection(SolutionItems) = preProject
+		Managed\ConnectionPlugins\Scripts\AfterBuildScript.sh = Managed\ConnectionPlugins\Scripts\AfterBuildScript.sh
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libs", "Libs", "{DE281DA2-23D3-4883-AB40-2EBE3DD534EF}"
+	ProjectSection(SolutionItems) = preProject
+		Managed\Libs\remojoApi.dll = Managed\Libs\remojoApi.dll
+		Managed\Libs\RoyalDocument.Desktop.dll = Managed\Libs\RoyalDocument.Desktop.dll
+		Managed\Libs\RoyalLogging.Desktop.dll = Managed\Libs\RoyalLogging.Desktop.dll
+		Managed\Libs\RoyalTSXNativeApi.dll = Managed\Libs\RoyalTSXNativeApi.dll
+		Managed\Libs\RoyalUtils.Desktop.dll = Managed\Libs\RoyalUtils.Desktop.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Native", "Native", "{665A5E13-300F-4844-8612-B0CB262A9DC4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ConnectionPlugins", "ConnectionPlugins", "{DEE90BF2-129C-4116-A9FC-ABCC373CB0C0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CoRD", "CoRD", "{411C5FF3-F06E-4B7E-8D47-C3B09CB57B5F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{0B57CC81-A7CA-4AD2-8F89-658C76DA0A7C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SharedCode", "SharedCode", "{35483398-FFAC-4533-AF77-C5B469B8B3A8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EA543169-2BC9-44B0-BBA1-376027463845}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA543169-2BC9-44B0-BBA1-376027463845}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA543169-2BC9-44B0-BBA1-376027463845}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA543169-2BC9-44B0-BBA1-376027463845}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2AC8C2B9-37E3-4FC9-B53B-5379E6C2D63F} = {4D009D1E-828F-432F-9669-3906889E32D2}
+		{DE281DA2-23D3-4883-AB40-2EBE3DD534EF} = {4D009D1E-828F-432F-9669-3906889E32D2}
+		{EA543169-2BC9-44B0-BBA1-376027463845} = {2AC8C2B9-37E3-4FC9-B53B-5379E6C2D63F}
+		{BBB18D47-269E-4729-89F7-49F071E53CF7} = {2AC8C2B9-37E3-4FC9-B53B-5379E6C2D63F}
+		{DEE90BF2-129C-4116-A9FC-ABCC373CB0C0} = {665A5E13-300F-4844-8612-B0CB262A9DC4}
+		{0B57CC81-A7CA-4AD2-8F89-658C76DA0A7C} = {665A5E13-300F-4844-8612-B0CB262A9DC4}
+		{411C5FF3-F06E-4B7E-8D47-C3B09CB57B5F} = {DEE90BF2-129C-4116-A9FC-ABCC373CB0C0}
+		{35483398-FFAC-4533-AF77-C5B469B8B3A8} = {0B57CC81-A7CA-4AD2-8F89-658C76DA0A7C}
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Managed\ConnectionPlugins\RdpConnection\RdpConnection.csproj
+	EndGlobalSection
+EndGlobal

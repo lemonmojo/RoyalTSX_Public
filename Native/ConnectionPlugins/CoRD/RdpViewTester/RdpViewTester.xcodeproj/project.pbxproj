@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E7DA3F5B1574F460009D27DD /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7DA3F5A1574F460009D27DD /* Cocoa.framework */; };
+		E7DA3F651574F460009D27DD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E7DA3F631574F460009D27DD /* InfoPlist.strings */; };
+		E7DA3F671574F460009D27DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E7DA3F661574F460009D27DD /* main.m */; };
+		E7DA3F6B1574F460009D27DD /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = E7DA3F691574F460009D27DD /* Credits.rtf */; };
+		E7DA3F6E1574F460009D27DD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E7DA3F6D1574F460009D27DD /* AppDelegate.m */; };
+		E7DA3F711574F460009D27DD /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7DA3F6F1574F460009D27DD /* MainMenu.xib */; };
+		E7DA3F821574F63F009D27DD /* RdpView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7DA3F811574F63F009D27DD /* RdpView.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E7DA3F561574F460009D27DD /* RdpViewTester.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RdpViewTester.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7DA3F5A1574F460009D27DD /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		E7DA3F5D1574F460009D27DD /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		E7DA3F5E1574F460009D27DD /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		E7DA3F5F1574F460009D27DD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E7DA3F621574F460009D27DD /* RdpViewTester-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RdpViewTester-Info.plist"; sourceTree = "<group>"; };
+		E7DA3F641574F460009D27DD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E7DA3F661574F460009D27DD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E7DA3F681574F460009D27DD /* RdpViewTester-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RdpViewTester-Prefix.pch"; sourceTree = "<group>"; };
+		E7DA3F6A1574F460009D27DD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		E7DA3F6C1574F460009D27DD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E7DA3F6D1574F460009D27DD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E7DA3F701574F460009D27DD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		E7DA3F811574F63F009D27DD /* RdpView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RdpView.framework; path = ../Build/Products/Debug/RdpView.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E7DA3F531574F460009D27DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7DA3F821574F63F009D27DD /* RdpView.framework in Frameworks */,
+				E7DA3F5B1574F460009D27DD /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E7DA3F4B1574F460009D27DD = {
+			isa = PBXGroup;
+			children = (
+				E7DA3F601574F460009D27DD /* RdpViewTester */,
+				E7DA3F591574F460009D27DD /* Frameworks */,
+				E7DA3F571574F460009D27DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E7DA3F571574F460009D27DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E7DA3F561574F460009D27DD /* RdpViewTester.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E7DA3F591574F460009D27DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E7DA3F811574F63F009D27DD /* RdpView.framework */,
+				E7DA3F5A1574F460009D27DD /* Cocoa.framework */,
+				E7DA3F5C1574F460009D27DD /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E7DA3F5C1574F460009D27DD /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E7DA3F5D1574F460009D27DD /* AppKit.framework */,
+				E7DA3F5E1574F460009D27DD /* CoreData.framework */,
+				E7DA3F5F1574F460009D27DD /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		E7DA3F601574F460009D27DD /* RdpViewTester */ = {
+			isa = PBXGroup;
+			children = (
+				E7DA3F6C1574F460009D27DD /* AppDelegate.h */,
+				E7DA3F6D1574F460009D27DD /* AppDelegate.m */,
+				E7DA3F6F1574F460009D27DD /* MainMenu.xib */,
+				E7DA3F611574F460009D27DD /* Supporting Files */,
+			);
+			path = RdpViewTester;
+			sourceTree = "<group>";
+		};
+		E7DA3F611574F460009D27DD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E7DA3F621574F460009D27DD /* RdpViewTester-Info.plist */,
+				E7DA3F631574F460009D27DD /* InfoPlist.strings */,
+				E7DA3F661574F460009D27DD /* main.m */,
+				E7DA3F681574F460009D27DD /* RdpViewTester-Prefix.pch */,
+				E7DA3F691574F460009D27DD /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E7DA3F551574F460009D27DD /* RdpViewTester */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7DA3F741574F460009D27DD /* Build configuration list for PBXNativeTarget "RdpViewTester" */;
+			buildPhases = (
+				E7DA3F521574F460009D27DD /* Sources */,
+				E7DA3F531574F460009D27DD /* Frameworks */,
+				E7DA3F541574F460009D27DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RdpViewTester;
+			productName = RdpViewTester;
+			productReference = E7DA3F561574F460009D27DD /* RdpViewTester.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E7DA3F4D1574F460009D27DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Lemon Mojo";
+			};
+			buildConfigurationList = E7DA3F501574F460009D27DD /* Build configuration list for PBXProject "RdpViewTester" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E7DA3F4B1574F460009D27DD;
+			productRefGroup = E7DA3F571574F460009D27DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E7DA3F551574F460009D27DD /* RdpViewTester */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E7DA3F541574F460009D27DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7DA3F651574F460009D27DD /* InfoPlist.strings in Resources */,
+				E7DA3F6B1574F460009D27DD /* Credits.rtf in Resources */,
+				E7DA3F711574F460009D27DD /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E7DA3F521574F460009D27DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7DA3F671574F460009D27DD /* main.m in Sources */,
+				E7DA3F6E1574F460009D27DD /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E7DA3F631574F460009D27DD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7DA3F641574F460009D27DD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E7DA3F691574F460009D27DD /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7DA3F6A1574F460009D27DD /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		E7DA3F6F1574F460009D27DD /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7DA3F701574F460009D27DD /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E7DA3F721574F460009D27DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E7DA3F731574F460009D27DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E7DA3F751574F460009D27DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../Build/Products/Debug\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RdpViewTester/RdpViewTester-Prefix.pch";
+				INFOPLIST_FILE = "RdpViewTester/RdpViewTester-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.7;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E7DA3F761574F460009D27DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../Build/Products/Debug\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RdpViewTester/RdpViewTester-Prefix.pch";
+				INFOPLIST_FILE = "RdpViewTester/RdpViewTester-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.7;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E7DA3F501574F460009D27DD /* Build configuration list for PBXProject "RdpViewTester" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7DA3F721574F460009D27DD /* Debug */,
+				E7DA3F731574F460009D27DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7DA3F741574F460009D27DD /* Build configuration list for PBXNativeTarget "RdpViewTester" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7DA3F751574F460009D27DD /* Debug */,
+				E7DA3F761574F460009D27DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E7DA3F4D1574F460009D27DD /* Project object */;
+}

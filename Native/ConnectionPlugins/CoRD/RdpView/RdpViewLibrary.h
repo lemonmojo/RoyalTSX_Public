@@ -1,0 +1,1 @@
+NSObject* getRdpViewController(id parentController, NSWindow* mainWindow);

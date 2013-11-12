@@ -1,0 +1,63 @@
+/*
+	ENGLISH LANGUAGE FILE
+*/
+
+// Error Descriptions
+"No error" = "No error";
+"The connection timed out." = "The connection timed out.";
+"The host name could not be resolved." = "The computer name could not be resolved.";
+"There was an error connecting." = "There was an error connecting.";
+"You canceled the connection." = "You canceled the connection.";
+
+"Official Royal TSX RDP Plugin" = "Official Royal TSX RDP Plugin";
+
+"Remote Desktop Connection Settings" = "Remote Desktop Connection Settings";
+"Remote Desktop" = "Remote Desktop";
+"Advanced" = "Advanced";
+"Notes" = "Notes";
+
+// Property Page Rdp Main
+"With a Remote Desktop connection you can connect to remote computers supporting RDP (Remote Desktop Protocol, Standard Port is 3389). You can change the port in the Advanced section." = "With a Remote Desktop connection you can connect to remote computers supporting RDP (Remote Desktop Protocol, Standard Port is 3389). You can change the port in the Advanced section.";
+"The \"Display Name\" must not be empty." = "The \"Display Name\" must not be empty.";
+"The \"Computer Name\" must not be empty." = "The \"Computer Name\" must not be empty.";
+
+// Property Page Rdp Advanced
+"Connection" = "Connection";
+"Custom Port:" = "Custom Port:";
+"Console/Admin Session" = "Console/Admin Session";
+
+// Property Page Rdp Advanced Display
+"Display Options" = "Display Options";
+"Colors:" = "Colors:";
+"256 Colors" = "256 Colors";
+"Thousands" = "Thousands";
+"Millions" = "Millions";
+"You can set the desktop size to fill the client area (\"Auto Expand\") or you specify a custom desktop size." = "You can set the desktop size to fill the client area (\"Auto Expand\") or you specify a custom desktop size.";
+"Desktop Size:" = "Desktop Size:";
+"Auto Expand" = "Auto Expand";
+"Custom Size" = "Custom Size";
+"Width:" = "Width:";
+"Height:" = "Height:";
+"Resize Mode:" = "Resize Mode:";
+"Scroll Bars" = "Scroll Bars";
+"Smart Reconnect" = "Smart Reconnect";
+"Decreasing the window size will show scroll bars in the remote session." = "Decreasing the window size will show scroll bars in the remote session.";
+"Changing the window size will force a reconnect, so that the remote desktop will adapt to the new size." = "Changing the window size will force a reconnect, so that the remote desktop will adapt to the new size.";
+
+// Property Page Rdp Advanced Performance
+"Performance" = "Performance";
+"On this page you can tweak RDP performance options. To improve performance, check only the boxes for the settings you really need." = "On this page you can tweak RDP performance options. To improve performance, check only the boxes for the settings you really need.";
+"Desktop background" = "Desktop background";
+"Menu and window animations" = "Menu and window animations";
+"Show window contents while dragging" = "Show window contents while dragging";
+"Font smoothing" = "Font smoothing";
+"Visual styles" = "Visual styles";
+
+// Property Page Rdp Advanced Redirection
+"Redirection" = "Redirection";
+"Audio:" = "Audio:";
+"Leave at remote computer" = "Leave at remote computer";
+"Do not play" = "Do not play";
+"Choose the devices and resources on this computer that you want to use in your remote session." = "Choose the devices and resources on this computer that you want to use in your remote session.";
+"Printers" = "Printers";
+"Disk drives" = "Disk drives";
