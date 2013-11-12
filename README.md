@@ -3,7 +3,7 @@ RoyalTSX_Public
 This repository contains the public source code of Royal TSX.
 
 ### Build Requirements
-* [Xcode 4.6.x](https://developer.apple.com/downloads) (Xcode 5.x is not yet supported)
+* [Xcode 4.6.x](https://developer.apple.com/downloads) (Xcode 5.x is currently incompatible with Monobjc)
 * [Xamarin Studio 4.0.x](http://xamarin.com/studio)
 * [Mono MDK 3.2.3](http://www.go-mono.com/mono-downloads/download.html)
 * [Monobjc 5.0.2165.0](http://monobjc.net/downloads.html)
