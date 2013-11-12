@@ -17,5 +17,6 @@ This repository contains the public source code of Royal TSX.
 * Each Plugin's Xcode project contains a 'Run Script' build phase that copies the resulting .framework into the Plugin's managed source tree.
 * After building the native part, open RoyalTSX_Public.sln which contains all the managed stuff with Xamarin Studio.
 * Modify (or remove) the codesigning part of Managed/ConnectionPlugins/Scripts/AfterBuildScript.sh to match your code signing identity.
-* Build the Plugin's managed project
-* Each Plugin's managed project contains an 'After Build Script' that strips the resulting package down to the minimum required components and copies it to Royal TSX' Plugins directory (overwriting any previously installed Plugin)
+* Build the Plugin's managed project.
+* Each Plugin's managed project contains an 'After Build Script' that strips the resulting package down to the minimum required components and copies it to Royal TSX' Plugins directory (overwriting any previously installed Plugin).
+* Restart Royal TSX to reload all Plugins.
