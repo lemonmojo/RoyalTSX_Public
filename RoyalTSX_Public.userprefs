@@ -3,14 +3,14 @@
   <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
-        <State expanded="True">
+        <State expanded="True" selected="True">
           <Node name="Managed" expanded="True">
             <Node name="ConnectionPlugins" expanded="True">
               <Node name="Scripts" expanded="True" />
-              <Node name="RdpConnection" expanded="True" selected="True" />
+              <Node name="RdpConnection" expanded="True" />
             </Node>
           </Node>
-          <Node name="Native" expanded="True" />
+          <Node name="NonCode" expanded="True" />
         </State>
       </Pad>
       <Pad Id="ClassPad">

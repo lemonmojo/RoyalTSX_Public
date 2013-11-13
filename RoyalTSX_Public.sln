@@ -36,6 +36,20 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NonCode", "NonCode", "{3846
 		README.md = README.md
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Toolbox", "Toolbox", "{F2F0CC13-75E3-41DE-8A97-C1145CAD3F96}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Alfred", "Alfred", "{5B4C50EA-96B5-47C8-940B-FC95CD6D5CBB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "V1Extension", "V1Extension", "{93053D1D-9588-44C8-AFB1-199636649876}"
+	ProjectSection(SolutionItems) = preProject
+		Toolbox\Alfred\V1Extension\Royal TSX - Open connections.alfredextension = Toolbox\Alfred\V1Extension\Royal TSX - Open connections.alfredextension
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "V2Workflow", "V2Workflow", "{04FB6AE0-4D77-497C-8E2F-041164DBCE16}"
+	ProjectSection(SolutionItems) = preProject
+		Toolbox\Alfred\V2Workflow\Royal TSX - Open Connection.alfredworkflow = Toolbox\Alfred\V2Workflow\Royal TSX - Open Connection.alfredworkflow
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -56,6 +70,9 @@ Global
 		{0B57CC81-A7CA-4AD2-8F89-658C76DA0A7C} = {665A5E13-300F-4844-8612-B0CB262A9DC4}
 		{411C5FF3-F06E-4B7E-8D47-C3B09CB57B5F} = {DEE90BF2-129C-4116-A9FC-ABCC373CB0C0}
 		{35483398-FFAC-4533-AF77-C5B469B8B3A8} = {0B57CC81-A7CA-4AD2-8F89-658C76DA0A7C}
+		{5B4C50EA-96B5-47C8-940B-FC95CD6D5CBB} = {F2F0CC13-75E3-41DE-8A97-C1145CAD3F96}
+		{93053D1D-9588-44C8-AFB1-199636649876} = {5B4C50EA-96B5-47C8-940B-FC95CD6D5CBB}
+		{04FB6AE0-4D77-497C-8E2F-041164DBCE16} = {5B4C50EA-96B5-47C8-940B-FC95CD6D5CBB}
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Managed\ConnectionPlugins\RdpConnection\RdpConnection.csproj
