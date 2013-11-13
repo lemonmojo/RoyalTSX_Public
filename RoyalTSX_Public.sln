@@ -47,7 +47,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "V1Extension", "V1Extension"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "V2Workflow", "V2Workflow", "{04FB6AE0-4D77-497C-8E2F-041164DBCE16}"
 	ProjectSection(SolutionItems) = preProject
-		Toolbox\Alfred\V2Workflow\Royal TSX - Open Connection.alfredworkflow = Toolbox\Alfred\V2Workflow\Royal TSX - Open Connection.alfredworkflow
+		Toolbox\Alfred\V2Workflow\Royal TSX - Alfred Workflows.alfredworkflow = Toolbox\Alfred\V2Workflow\Royal TSX - Alfred Workflows.alfredworkflow
 	EndProjectSection
 EndProject
 Global
