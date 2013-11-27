@@ -11,7 +11,7 @@ This repository contains the public source code of Royal TSX.
 ### Repository Structure
 * __/Managed__: This folder contains managed (C#) source code
 * __/Native__: This folder contains native (Objective-C/C/C++) source code
-* __/Toolbox__: This folder contains several scripts and other tools that can be used to extend/interface with Royal TSX
+* __/Toolbox__: This folder contains several scripts and other tools that can interface with Royal TSX
  
 ### How to build a Connection Plugin
 * Open the native Xcode project for the desired Plugin and build it.
