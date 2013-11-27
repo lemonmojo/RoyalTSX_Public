@@ -50,6 +50,28 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "V2Workflow", "V2Workflow", 
 		Toolbox\Alfred\V2Workflow\Royal TSX - Alfred Workflows.alfredworkflow = Toolbox\Alfred\V2Workflow\Royal TSX - Alfred Workflows.alfredworkflow
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AppleScript", "AppleScript", "{29D780CD-69B1-4B7B-8210-81B45EF435C0}"
+	ProjectSection(SolutionItems) = preProject
+		Toolbox\AppleScript\ConnectionOperations.scpt = Toolbox\AppleScript\ConnectionOperations.scpt
+		Toolbox\AppleScript\CopyDefaultRDSConnection.scpt = Toolbox\AppleScript\CopyDefaultRDSConnection.scpt
+		Toolbox\AppleScript\CsvImport.scpt = Toolbox\AppleScript\CsvImport.scpt
+		Toolbox\AppleScript\DocumentOperations.scpt = Toolbox\AppleScript\DocumentOperations.scpt
+		Toolbox\AppleScript\EnableKeepAlive.scpt = Toolbox\AppleScript\EnableKeepAlive.scpt
+		Toolbox\AppleScript\EnableNLA.scpt = Toolbox\AppleScript\EnableNLA.scpt
+		Toolbox\AppleScript\ExtendedCsvImport.scpt = Toolbox\AppleScript\ExtendedCsvImport.scpt
+		Toolbox\AppleScript\MoreAutomationSamples.scpt = Toolbox\AppleScript\MoreAutomationSamples.scpt
+		Toolbox\AppleScript\ReplaceDoubleBackslash.scpt = Toolbox\AppleScript\ReplaceDoubleBackslash.scpt
+		Toolbox\AppleScript\SwitchPerformanceSettings.scpt = Toolbox\AppleScript\SwitchPerformanceSettings.scpt
+		Toolbox\AppleScript\vRDCSVImport.scpt = Toolbox\AppleScript\vRDCSVImport.scpt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "data", "data", "{47126B62-8406-45A2-88DF-96652A2BB77D}"
+	ProjectSection(SolutionItems) = preProject
+		Toolbox\AppleScript\data\CsvSample.csv = Toolbox\AppleScript\data\CsvSample.csv
+		Toolbox\AppleScript\data\ExtendedCsvSample.csv = Toolbox\AppleScript\data\ExtendedCsvSample.csv
+		Toolbox\AppleScript\data\vRDCsvSample.csv = Toolbox\AppleScript\data\vRDCsvSample.csv
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -71,8 +93,10 @@ Global
 		{411C5FF3-F06E-4B7E-8D47-C3B09CB57B5F} = {DEE90BF2-129C-4116-A9FC-ABCC373CB0C0}
 		{35483398-FFAC-4533-AF77-C5B469B8B3A8} = {0B57CC81-A7CA-4AD2-8F89-658C76DA0A7C}
 		{5B4C50EA-96B5-47C8-940B-FC95CD6D5CBB} = {F2F0CC13-75E3-41DE-8A97-C1145CAD3F96}
+		{29D780CD-69B1-4B7B-8210-81B45EF435C0} = {F2F0CC13-75E3-41DE-8A97-C1145CAD3F96}
 		{93053D1D-9588-44C8-AFB1-199636649876} = {5B4C50EA-96B5-47C8-940B-FC95CD6D5CBB}
 		{04FB6AE0-4D77-497C-8E2F-041164DBCE16} = {5B4C50EA-96B5-47C8-940B-FC95CD6D5CBB}
+		{47126B62-8406-45A2-88DF-96652A2BB77D} = {29D780CD-69B1-4B7B-8210-81B45EF435C0}
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Managed\ConnectionPlugins\RdpConnection\RdpConnection.csproj
