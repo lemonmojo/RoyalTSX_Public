@@ -63,6 +63,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AppleScript", "AppleScript"
 		Toolbox\AppleScript\ReplaceDoubleBackslash.scpt = Toolbox\AppleScript\ReplaceDoubleBackslash.scpt
 		Toolbox\AppleScript\SwitchPerformanceSettings.scpt = Toolbox\AppleScript\SwitchPerformanceSettings.scpt
 		Toolbox\AppleScript\vRDCSVImport.scpt = Toolbox\AppleScript\vRDCSVImport.scpt
+		Toolbox\AppleScript\Screenhero.scpt = Toolbox\AppleScript\Screenhero.scpt
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "data", "data", "{47126B62-8406-45A2-88DF-96652A2BB77D}"
