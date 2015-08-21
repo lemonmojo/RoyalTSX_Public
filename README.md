@@ -1,7 +1,7 @@
 RoyalTSX_Public
 ===============
 This repository contains the public source code of Royal TSX.
-The information and code in this repository is for Royal TSX V1. We hope to find the time to update everything for Royal TSX V2 in the near future.
+The information and code (except for the Toolbox) in this repository is for Royal TSX V1. We hope to find the time to update everything for Royal TSX V2 in the near future.
 
 ### Build Requirements
 * [Xcode 4.6.x](https://developer.apple.com/downloads) (Xcode 5.x is currently incompatible with Monobjc)
