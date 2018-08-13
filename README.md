@@ -22,3 +22,6 @@ The information and code (except for the Toolbox) in this repository is for Roya
 * Build the Plugin's managed project.
 * Each Plugin's managed project contains an 'After Build Script' that strips the resulting package down to the minimum required components and copies it to Royal TSX' Plugins directory (overwriting any previously installed Plugin).
 * Restart Royal TSX to reload all Plugins.
+
+### Toolbox
+* Content that was previously included in this repository has moved to our new [toolbox repo](https://github.com/royalapplications/toolbox).
