@@ -1,4 +1,4 @@
-RoyalTSX_Public
+Royal TSX V1 Public Source Code
 ===============
 This repository contains the public source code of Royal TSX.
 The information and code (except for the Toolbox) in this repository is for Royal TSX V1. For Royal TSX V2, please head over to [this repository](https://github.com/lemonmojo/RoyalTSX_V2_Public) and for Royal TSX V3 check out [this repository](https://github.com/lemonmojo/RoyalTSX_V3_Public).
